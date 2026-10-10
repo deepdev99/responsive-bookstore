@@ -1,0 +1,29 @@
+﻿# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+.vite/
+
+# Test coverage
+coverage/
+
+# Local env files (never commit secrets)
+.env
+.env.*
+*.local
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary audit artifacts
+.audit/
